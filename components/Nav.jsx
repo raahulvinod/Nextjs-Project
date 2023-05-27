@@ -99,7 +99,7 @@ const Nav = () => {
                   My Profile
                 </Link>
 
-                <Link href="/profile" className="dropdown_link">
+                <Link href="/create-prompt" className="dropdown_link">
                   Create Prompt
                 </Link>
 
