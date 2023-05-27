@@ -1,7 +1,5 @@
 import NextAuth from 'next-auth/next';
 import GoogleProvider from 'next-auth/providers/google';
-import { signIn } from 'next-auth/react';
-import { loadGetInitialProps } from 'next/dist/shared/lib/utils';
 
 import User from '@models/user';
 import { connectToDb } from '@utils/database';
@@ -20,6 +18,8 @@ const handler = NextAuth({
       });
 
       session.user.id = sessionUser._id.toString();
+
+      return session;
     },
     async signIn({ profile }) {
       try {
