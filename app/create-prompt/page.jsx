@@ -27,7 +27,7 @@ const CreatePrompt = () => {
         }),
       });
 
-      if (!response.ok) {
+      if (response.ok) {
         router.push('/');
       }
     } catch (error) {
