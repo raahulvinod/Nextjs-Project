@@ -1,3 +1,17 @@
+Please add env variables for the project
+
+GOOGLE_ID=
+GOOGLE_CLIENT_SECRET=
+MONGODB_URI=
+
+NEXTAUTH_URL=
+NEXTAUTH_URL_INTERNAL=
+NEXTAUTH_SECRET=
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
